@@ -1,0 +1,25 @@
+#tooltip {
+  position:absolute;
+  width: fit-content;
+  width: -moz-max-content;
+  max-width: 30%;
+  max-height: 50%;
+  overflow:auto;
+  font-size: 0.9em;
+  height:auto;
+  padding: 5px;
+  background-color: rgba(255,255,255,0.8);
+  border-radius : 10px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+  pointer-events: : none;
+  font-family: 'Segoe UI', Tahomam Geneva, Verdana, sans-serif;
+}
+
+#tooptip p {
+  margin:0;
+  padding:0;
+}
+
+#tooltip.hidden {
+  display: none;
+}
